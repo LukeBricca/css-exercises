@@ -7,9 +7,23 @@ img {
   height: 100px;
 }
 
+.plants {
+  display: flex;
+  gap: 52px;
+  flex-direction: row;
+}
+
+.plantbox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
